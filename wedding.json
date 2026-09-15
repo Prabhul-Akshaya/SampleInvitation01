@@ -1,0 +1,188 @@
+{
+  "meta": {
+    "siteTitle": "Ananya & Arjun — Wedding Invitation",
+    "description": "Join Ananya & Arjun as they celebrate their wedding on 18 December 2026 in Thiruvananthapuram, Kerala."
+  },
+
+  "couple": {
+    "bride": "Ananya",
+    "brideFull": "Ananya Nair",
+    "groom": "Arjun",
+    "groomFull": "Arjun Menon",
+    "displayName": "Ananya & Arjun",
+    "heroImage": "images/couple.jpg",
+    "coupleImage": "images/couple-2.jpg",
+    "coupleImageOrientation": "landscape"
+  },
+
+  "date": {
+    "display": "18 December 2026",
+    "day": "Friday",
+    "time": "10:30 AM",
+    "iso": "2026-12-18T10:30:00+05:30"
+  },
+
+  "location": {
+    "venue": "Bayleaf Garden Palace",
+    "address": "Kovalam Beach Road, Thiruvananthapuram, Kerala 695527",
+    "city": "Thiruvananthapuram",
+    "mapUrl": "https://maps.google.com/?q=Kovalam+Beach+Thiruvananthapuram"
+  },
+
+  "invitation": {
+    "eyebrow": "Together with their families",
+    "title": "With joyful hearts",
+    "message": "we invite you to celebrate the beginning of our forever. Your presence would mean the world to us as we begin this new chapter, surrounded by the people we love most."
+  },
+
+  "families": {
+    "bride": {
+      "heading": "The Bride",
+      "name": "Ananya Nair",
+      "parents": "Daughter of Mr. Suresh Nair & Mrs. Lakshmi Nair"
+    },
+    "groom": {
+      "heading": "The Groom",
+      "name": "Arjun Menon",
+      "parents": "Son of Mr. Ramesh Menon & Mrs. Priya Menon"
+    }
+  },
+
+  "countdown": {
+    "heading": "Counting down to forever",
+    "completedMessage": "The celebration has begun."
+  },
+
+  "story": {
+    "enabled": true,
+    "title": "Our Story",
+    "paragraphs": [
+      "It began on a rainy afternoon in Kochi, over spilled coffee and an argument about which was the better filter — the one from a family gathering neither of us wanted to attend, but are now endlessly grateful for.",
+      "What followed were years of long phone calls, longer road trips, and the quiet realisation that home was no longer a place — it was a person.",
+      "Now, surrounded by the families who raised us and the friends who've walked beside us, we're ready to begin the next chapter — as one."
+    ]
+  },
+
+  "storyTimeline": [
+    {
+      "date": "August 2019",
+      "title": "How We Met",
+      "description": "A mutual friend's engagement party, one shared umbrella, and a conversation that lasted until the venue lights came on.",
+      "image": "images/gallery-1.jpg"
+    },
+    {
+      "date": "March 2023",
+      "title": "The Proposal",
+      "description": "On a quiet evening by the backwaters, with the whole family waiting just around the corner to celebrate with us.",
+      "image": "images/gallery-2.jpg"
+    },
+    {
+      "date": "December 2026",
+      "title": "Our Wedding",
+      "description": "The day we've been waiting for — and we couldn't be more grateful to share it with the people we love most.",
+      "image": "images/gallery-5.jpg"
+    }
+  ],
+
+  "events": [
+    {
+      "name": "Mehendi Ceremony",
+      "date": "16 December 2026",
+      "time": "4:00 PM",
+      "venue": "Bayleaf Garden Palace — Lawn",
+      "address": "Kovalam Beach Road, Thiruvananthapuram, Kerala 695527",
+      "description": "An afternoon of colour, music and intricate henna, celebrating the bride-to-be with the women of both families.",
+      "mapUrl": "https://maps.google.com/?q=Kovalam+Beach+Thiruvananthapuram",
+      "icon": "lotus",
+      "image": "images/gallery-3.jpg"
+    },
+    {
+      "name": "Sangeet Night",
+      "date": "17 December 2026",
+      "time": "7:00 PM",
+      "venue": "Bayleaf Garden Palace — Ballroom",
+      "address": "Kovalam Beach Road, Thiruvananthapuram, Kerala 695527",
+      "description": "A night of music, dance and family performances as we welcome both sides of the family together for the first time.",
+      "mapUrl": "https://maps.google.com/?q=Kovalam+Beach+Thiruvananthapuram",
+      "icon": "ring",
+      "image": "images/gallery-4.jpg"
+    },
+    {
+      "name": "Wedding Ceremony",
+      "date": "18 December 2026",
+      "time": "10:30 AM",
+      "venue": "Bayleaf Garden Palace — Main Hall",
+      "address": "Kovalam Beach Road, Thiruvananthapuram, Kerala 695527",
+      "description": "Join us as we exchange vows in a traditional ceremony, followed by blessings from our families and elders.",
+      "mapUrl": "https://maps.google.com/?q=Kovalam+Beach+Thiruvananthapuram",
+      "icon": "heart",
+      "image": "images/gallery-5.jpg"
+    },
+    {
+      "name": "Reception",
+      "date": "18 December 2026",
+      "time": "7:30 PM",
+      "venue": "Bayleaf Garden Palace — Banquet Lawn",
+      "address": "Kovalam Beach Road, Thiruvananthapuram, Kerala 695527",
+      "description": "An evening of celebration, dinner and dancing as we thank you for being part of our journey.",
+      "mapUrl": "https://maps.google.com/?q=Kovalam+Beach+Thiruvananthapuram",
+      "icon": "star",
+      "image": "images/gallery-6.jpg"
+    }
+  ],
+
+  "gallery": [
+    "images/gallery-1.jpg",
+    "images/gallery-2.jpg",
+    "images/gallery-3.jpg",
+    "images/gallery-4.jpg",
+    "images/gallery-5.jpg",
+    "images/gallery-6.jpg"
+  ],
+
+  "venueImage": "images/venue.jpg",
+
+  "rsvp": {
+    "enabled": true,
+    "heading": "Please join us",
+    "message": "We would be honoured to have you celebrate with us. Kindly let us know if you'll be able to make it by the date below.",
+    "contactName": "Ananya & Arjun",
+    "phone": "+91 98765 43210",
+    "whatsapp": "+919876543210",
+    "deadline": "10 December 2026",
+    "messageTemplate": "Hello! I would like to RSVP for the wedding of {couple}."
+  },
+
+  "music": {
+    "enabled": false,
+    "file": "assets/music.mp3",
+    "autoplay": false,
+    "loop": true,
+    "label": "Our Song"
+  },
+
+  "theme": {
+    "primary": "#7A1F3F",
+    "primaryDark": "#4A0F26",
+    "secondary": "#C9A227",
+    "secondaryLight": "#E0C378",
+    "background": "#FBF7F0",
+    "surface": "#F6EEDF",
+    "text": "#3B2924",
+    "textMuted": "#7A6a5f",
+    "accent": "#C9A227",
+    "fontDisplay": "'Cormorant Garamond', 'Georgia', serif",
+    "fontBody": "'Montserrat', 'Helvetica Neue', Arial, sans-serif",
+    "fontScript": "'Mrs Saint Delafield', 'Brush Script MT', cursive"
+  },
+
+  "closing": {
+    "lines": ["Two hearts.", "One beautiful journey.", "Forever begins here."],
+    "image": "images/couple-2.jpg"
+  },
+
+  "footer": {
+    "text": "Made with love for Ananya & Arjun",
+    "credit": "18 . 12 . 2026"
+  }
+}

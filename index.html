@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+<title>Wedding Invitation</title>
+<meta name="description" content="You're invited to celebrate our wedding." />
+
+<!--
+  Open Graph tags below control the preview card shown when this link is
+  shared on WhatsApp, iMessage, etc. WhatsApp reads these three lines
+  directly from this file and cannot run JavaScript, so they can't be
+  pulled from wedding.json automatically. For a personalised preview,
+  edit the three "content" values below to match your wedding.json.
+  See README.md → "WhatsApp link preview" for details.
+-->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="You're Invited — A Wedding Celebration" />
+<meta property="og:description" content="Join us as we celebrate our wedding day." />
+<meta property="og:image" content="images/couple.jpg" />
+<meta name="theme-color" content="#7A1F3F" />
+
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Cpath fill='%23C9A227' d='M24 42s-18-11-18-24C6 11 11 7 16 7c4 0 7 2 8 6 1-4 4-6 8-6 5 0 10 4 10 11 0 13-18 24-18 24z'/%3E%3C/svg%3E" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500&family=Montserrat:wght@300;400;500;600&family=Mrs+Saint+Delafield&display=swap" rel="stylesheet" />
+
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<!-- ============ SVG ICON SPRITE (referenced via <use>) ============ -->
+<svg aria-hidden="true" style="position:absolute; width:0; height:0; overflow:hidden;">
+  <defs>
+    <symbol id="icon-heart" viewBox="0 0 48 48">
+      <path d="M24 42s-18-11.5-18-25C6 10.5 11.5 6 17 6c3.8 0 6.6 1.9 7 6 .4-4.1 3.2-6 7-6 5.5 0 11 4.5 11 11 0 13.5-18 25-18 25z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="icon-ring" viewBox="0 0 48 48">
+      <circle cx="17" cy="29" r="9.5" fill="none" stroke="currentColor" stroke-width="1.6"/>
+      <circle cx="31" cy="29" r="9.5" fill="none" stroke="currentColor" stroke-width="1.6"/>
+      <path d="M17 10.5 20.5 16.5 17 21 13.5 16.5Z" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="icon-lotus" viewBox="0 0 48 48">
+      <g fill="none" stroke="currentColor" stroke-width="1.4">
+        <path d="M24 24C22 17 22 10 24 5c2 5 2 12 0 19Z" transform="rotate(0 24 24)"/>
+        <path d="M24 24C22 17 22 10 24 5c2 5 2 12 0 19Z" transform="rotate(45 24 24)"/>
+        <path d="M24 24C22 17 22 10 24 5c2 5 2 12 0 19Z" transform="rotate(90 24 24)"/>
+        <path d="M24 24C22 17 22 10 24 5c2 5 2 12 0 19Z" transform="rotate(135 24 24)"/>
+        <path d="M24 24C22 17 22 10 24 5c2 5 2 12 0 19Z" transform="rotate(180 24 24)"/>
+        <path d="M24 24C22 17 22 10 24 5c2 5 2 12 0 19Z" transform="rotate(225 24 24)"/>
+        <path d="M24 24C22 17 22 10 24 5c2 5 2 12 0 19Z" transform="rotate(270 24 24)"/>
+        <path d="M24 24C22 17 22 10 24 5c2 5 2 12 0 19Z" transform="rotate(315 24 24)"/>
+      </g>
+      <circle cx="24" cy="24" r="3" fill="none" stroke="currentColor" stroke-width="1.4"/>
+    </symbol>
+    <symbol id="icon-star" viewBox="0 0 48 48">
+      <path d="M24 4 28.5 17H42L31 25.5 35 39 24 30.5 13 39 17 25.5 6 17H19.5Z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="icon-pin" viewBox="0 0 48 48">
+      <path d="M24 44S10 28 10 18C10 10.3 16.3 4 24 4s14 6.3 14 14c0 10-14 26-14 26Z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
+      <circle cx="24" cy="18" r="5" fill="none" stroke="currentColor" stroke-width="1.6"/>
+    </symbol>
+    <symbol id="icon-calendar" viewBox="0 0 48 48">
+      <rect x="8" y="12" width="32" height="28" rx="3" fill="none" stroke="currentColor" stroke-width="1.5"/>
+      <line x1="8" y1="20" x2="40" y2="20" stroke="currentColor" stroke-width="1.5"/>
+      <line x1="16" y1="6" x2="16" y2="14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+      <line x1="32" y1="6" x2="32" y2="14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="icon-clock" viewBox="0 0 48 48">
+      <circle cx="24" cy="24" r="17" fill="none" stroke="currentColor" stroke-width="1.5"/>
+      <line x1="24" y1="24" x2="24" y2="14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+      <line x1="24" y1="24" x2="31" y2="27" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="icon-menu" viewBox="0 0 24 24">
+      <line x1="4" y1="7" x2="20" y2="7" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+      <line x1="4" y1="12" x2="20" y2="12" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+      <line x1="4" y1="17" x2="20" y2="17" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="icon-close" viewBox="0 0 24 24">
+      <line x1="6" y1="6" x2="18" y2="18" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+      <line x1="18" y1="6" x2="6" y2="18" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="icon-chevron-left" viewBox="0 0 24 24">
+      <path d="M15 5 8 12l7 7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="icon-chevron-right" viewBox="0 0 24 24">
+      <path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="icon-chevron-down" viewBox="0 0 24 24">
+      <path d="M5 9l7 7 7-7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="icon-music" viewBox="0 0 24 24">
+      <path d="M9 17V5l10-2v12" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="6.5" cy="17" r="3" fill="none" stroke="currentColor" stroke-width="1.5"/>
+      <circle cx="16.5" cy="15" r="3" fill="none" stroke="currentColor" stroke-width="1.5"/>
+    </symbol>
+    <symbol id="icon-chat" viewBox="0 0 24 24">
+      <path d="M12 4C7 4 3 7.6 3 12c0 2 .8 3.8 2.1 5.2L4 21l4.2-1.3c1.2.5 2.5.8 3.8.8 5 0 9-3.6 9-8s-4-8.5-9-8.5Z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="icon-flourish" viewBox="0 0 240 40">
+      <line x1="0" y1="20" x2="95" y2="20" stroke="currentColor" stroke-width="1"/>
+      <line x1="145" y1="20" x2="240" y2="20" stroke="currentColor" stroke-width="1"/>
+      <path d="M120 7 129 20 120 33 111 20Z" fill="none" stroke="currentColor" stroke-width="1.1" stroke-linejoin="round"/>
+      <circle cx="120" cy="20" r="2.4" fill="currentColor"/>
+    </symbol>
+    <symbol id="icon-corner" viewBox="0 0 100 100">
+      <path d="M6 60C6 28 28 6 60 6" fill="none" stroke="currentColor" stroke-width="1"/>
+      <path d="M6 40C6 21 21 6 40 6" fill="none" stroke="currentColor" stroke-width="1"/>
+      <circle cx="14" cy="14" r="2.4" fill="none" stroke="currentColor" stroke-width="1"/>
+    </symbol>
+  </defs>
+</svg>
+
+<!-- ============ LOADER ============ -->
+<div id="loader" class="loader" role="status" aria-live="polite">
+  <div class="loader__mark" aria-hidden="true">
+    <svg viewBox="0 0 48 48" class="loader__lotus"><use href="#icon-lotus"/></svg>
+  </div>
+  <p class="loader__text">Loading your invitation&hellip;</p>
+</div>
+
+<!-- ============ FLOATING NAVIGATION ============ -->
+<nav class="floating-nav" id="floatingNav" aria-label="Section navigation">
+  <button type="button" class="floating-nav__toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Open navigation menu">
+    <svg class="icon icon--menu"><use href="#icon-menu"/></svg>
+    <svg class="icon icon--close"><use href="#icon-close"/></svg>
+  </button>
+  <ul class="floating-nav__menu" id="navMenu">
+    <li><a href="#hero" data-nav-link>Home</a></li>
+    <li><a href="#story" data-nav-link>Story</a></li>
+    <li><a href="#events" data-nav-link>Events</a></li>
+    <li><a href="#gallery" data-nav-link>Gallery</a></li>
+    <li><a href="#venue" data-nav-link>Venue</a></li>
+    <li><a href="#rsvp" data-nav-link>RSVP</a></li>
+  </ul>
+</nav>
+
+<!-- ============ FLOATING MUSIC BUTTON ============ -->
+<button type="button" id="musicToggle" class="music-toggle" aria-label="Play background music" hidden>
+  <svg class="icon"><use href="#icon-music"/></svg>
+</button>
+
+<!-- ============ HERO ============ -->
+<header id="hero" class="hero">
+  <div class="hero__media">
+    <img id="heroImage" class="hero__image" src="" alt="" />
+  </div>
+  <div class="hero__overlay" aria-hidden="true"></div>
+  <div class="hero__content">
+    <p class="hero__eyebrow" id="heroEyebrow"></p>
+    <div class="hero__names">
+      <h1 class="hero__name" id="heroBride"></h1>
+      <span class="hero__amp" aria-hidden="true">&amp;</span>
+      <h1 class="hero__name" id="heroGroom"></h1>
+    </div>
+    <svg class="hero__flourish" aria-hidden="true"><use href="#icon-flourish"/></svg>
+    <p class="hero__date" id="heroDate"></p>
+    <p class="hero__place" id="heroPlace"></p>
+  </div>
+  <button type="button" class="hero__scroll" id="scrollIndicator" aria-label="Scroll to invitation">
+    <span class="hero__scroll-line" aria-hidden="true"></span>
+    <svg class="icon"><use href="#icon-chevron-down"/></svg>
+  </button>
+</header>
+
+<main id="main-content">
+
+  <!-- ============ INVITATION ============ -->
+  <section id="invitation" class="invitation section" aria-labelledby="invitationTitle">
+    <svg class="ornament ornament--top-left" aria-hidden="true"><use href="#icon-corner"/></svg>
+    <svg class="ornament ornament--top-right" aria-hidden="true"><use href="#icon-corner"/></svg>
+    <div class="invitation__inner reveal">
+      <p class="eyebrow" id="invitationEyebrow"></p>
+      <h2 class="invitation__title" id="invitationTitle"></h2>
+      <p class="invitation__message" id="invitationMessage"></p>
+      <svg class="divider" aria-hidden="true"><use href="#icon-flourish"/></svg>
+      <div class="invitation__families" id="invitationFamilies"></div>
+    </div>
+    <svg class="ornament ornament--bottom-left" aria-hidden="true"><use href="#icon-corner"/></svg>
+    <svg class="ornament ornament--bottom-right" aria-hidden="true"><use href="#icon-corner"/></svg>
+  </section>
+
+  <!-- ============ COUNTDOWN ============ -->
+  <section id="countdown" class="countdown section" aria-labelledby="countdownHeading">
+    <h2 class="countdown__heading reveal" id="countdownHeading"></h2>
+    <div class="countdown__timer reveal" id="countdownTimer" role="timer" aria-live="polite" aria-atomic="true"></div>
+    <p class="countdown__complete reveal" id="countdownComplete" hidden></p>
+  </section>
+
+  <!-- ============ OUR STORY ============ -->
+  <section id="story" class="story section" aria-labelledby="storyTitle">
+    <h2 class="section-title reveal" id="storyTitle"></h2>
+    <div class="story__paragraphs reveal" id="storyParagraphs"></div>
+    <ol class="story__timeline" id="storyTimelineList"></ol>
+  </section>
+
+  <!-- ============ WEDDING EVENTS ============ -->
+  <section id="events" class="events section" aria-labelledby="eventsTitle">
+    <h2 class="section-title reveal" id="eventsTitle">Wedding Events</h2>
+    <p class="section-subtitle reveal">A few celebrations to mark your calendar</p>
+    <div class="events__list" id="eventsList"></div>
+  </section>
+
+  <!-- ============ COUPLE PHOTO ============ -->
+  <section id="couple" class="couple-photo section">
+    <div class="couple-photo__frame reveal">
+      <img id="coupleImage" class="couple-photo__image" src="" alt="" loading="lazy" />
+    </div>
+  </section>
+
+  <!-- ============ GALLERY ============ -->
+  <section id="gallery" class="gallery section" aria-labelledby="galleryTitle">
+    <h2 class="section-title reveal" id="galleryTitle">Our Gallery</h2>
+    <p class="section-subtitle reveal">Moments we've collected along the way</p>
+    <div class="gallery__grid" id="galleryGrid"></div>
+  </section>
+
+  <!-- ============ VENUE ============ -->
+  <section id="venue" class="venue section" aria-labelledby="venueName">
+    <div class="venue__media reveal">
+      <img id="venueImage" class="venue__image" src="" alt="" loading="lazy" />
+    </div>
+    <div class="venue__info reveal">
+      <p class="eyebrow">The Venue</p>
+      <h2 class="venue__name" id="venueName"></h2>
+      <p class="venue__address" id="venueAddress"></p>
+      <a href="#" id="venueMapLink" class="btn btn--outline" target="_blank" rel="noopener noreferrer">
+        <svg class="icon"><use href="#icon-pin"/></svg>
+        Open in Google Maps
+      </a>
+    </div>
+  </section>
+
+  <!-- ============ RSVP ============ -->
+  <section id="rsvp" class="rsvp section" aria-labelledby="rsvpHeading">
+    <svg class="ornament ornament--rsvp" aria-hidden="true"><use href="#icon-lotus"/></svg>
+    <h2 class="rsvp__heading reveal" id="rsvpHeading"></h2>
+    <p class="rsvp__message reveal" id="rsvpMessage"></p>
+    <p class="rsvp__deadline reveal" id="rsvpDeadline"></p>
+    <a href="#" id="rsvpButton" class="btn btn--filled reveal" target="_blank" rel="noopener noreferrer">
+      <svg class="icon"><use href="#icon-chat"/></svg>
+      <span>RSVP on WhatsApp</span>
+    </a>
+    <p class="rsvp__contact reveal" id="rsvpContact"></p>
+  </section>
+
+  <!-- ============ CLOSING ============ -->
+  <section id="closing" class="closing section">
+    <div class="closing__media">
+      <img id="closingImage" class="closing__image" src="" alt="" loading="lazy" />
+    </div>
+    <div class="closing__overlay" aria-hidden="true"></div>
+    <div class="closing__content">
+      <p class="closing__line" id="closingLine1"></p>
+      <p class="closing__line" id="closingLine2"></p>
+      <p class="closing__line" id="closingLine3"></p>
+      <svg class="divider divider--light" aria-hidden="true"><use href="#icon-flourish"/></svg>
+      <p class="closing__names" id="closingNames"></p>
+      <p class="closing__date" id="closingDate"></p>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <svg class="site-footer__flourish" aria-hidden="true"><use href="#icon-flourish"/></svg>
+  <p id="footerText" class="site-footer__text"></p>
+  <p id="footerCredit" class="site-footer__credit"></p>
+</footer>
+
+<!-- ============ LIGHTBOX ============ -->
+<div id="lightbox" class="lightbox" role="dialog" aria-modal="true" aria-label="Photo viewer" hidden>
+  <button type="button" id="lightboxClose" class="lightbox__control lightbox__close" aria-label="Close photo viewer">
+    <svg class="icon"><use href="#icon-close"/></svg>
+  </button>
+  <button type="button" id="lightboxPrev" class="lightbox__control lightbox__nav lightbox__nav--prev" aria-label="Previous photo">
+    <svg class="icon"><use href="#icon-chevron-left"/></svg>
+  </button>
+  <figure class="lightbox__figure">
+    <img id="lightboxImage" class="lightbox__image" src="" alt="" />
+    <figcaption id="lightboxCounter" class="lightbox__counter"></figcaption>
+  </figure>
+  <button type="button" id="lightboxNext" class="lightbox__control lightbox__nav lightbox__nav--next" aria-label="Next photo">
+    <svg class="icon"><use href="#icon-chevron-right"/></svg>
+  </button>
+</div>
+
+<audio id="bgMusic" preload="none"></audio>
+
+<script src="js/app.js"></script>
+</body>
+</html>
